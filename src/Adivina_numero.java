@@ -1,5 +1,9 @@
 import java.util.Scanner;
 
+/**
+ * Hola esto es un comentario
+ */
+
 public class Adivina_numero {
     public static void main(String[] args) {
 
