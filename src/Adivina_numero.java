@@ -11,6 +11,7 @@ public class Adivina_numero {
 
         Scanner entrada = new Scanner(System.in);
         int numero=0;
+        int intentos = 0;
 
 
         //Do While
@@ -19,6 +20,7 @@ public class Adivina_numero {
             intentos++;
             System.out.println("Introduce un numero, por favor");
             numero=entrada.nextInt();
+
 
             if(numero > aleatorio){
                 System.out.println("Mas bajo");
