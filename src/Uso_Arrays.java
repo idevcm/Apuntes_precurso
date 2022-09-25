@@ -17,6 +17,7 @@ public class Uso_Arrays {
          */
 
         //Forma optimizada
+        int ñ;
         int []  mi_matriz = {5, 38, -15, 92, 71, 95, 85, 65, 25, 14, 78};
         for (int i = 0; i < mi_matriz.length; i++){
             System.out.println("Valor del indice " + i + " = " + mi_matriz[i]);
